@@ -1,0 +1,34 @@
+.floated {
+    display: inline-block;
+    float: left;
+    margin: false;
+    position: relative;
+    &.right {
+      float: right;
+    }
+  }
+
+  .logo {
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 70px;
+    margin: 0 30px;
+  }
+
+  .footer {
+    // background-color: $color-primary;
+    // border-top: 1px solid $color-footer-border;
+    bottom: 0;
+    // color: $color-hover;
+    font-family: Poppins;
+    left: 0;
+    max-height: 50px;
+    overflow: hidden;
+    padding: 20px 30px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
